@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Sacramento&display=swap');
+
+body{
+    margin: 0;
+    text-align: center;
+    color: #4D8C8D;
+    font-family: 'Open Sans', sans-serif;
+}
+
+h1{
+    margin-bottom: 0;
+    margin-top: 0;
+    color: #3d6e6e;
+    font-family: 'Sacramento', cursive;
+}
+
+p{
+    margin-top: 0;
+    color: #427879;
+}
+
+hr {
+    width: 100px;
+    background-color: #fff;
+    border-top: 8px dotted #a7a7a7;
+}
+
+footer{
+    margin: 32px 0px;
+}
+
+.footerLinks{
+    display: inline-block;
+    margin: 0px 16px;
+}
+
+.container{
+    position: relative;
+    height: 100vh;
+}
+.mountainsImage{
+    object-fit: fill;
+    width: 100%;
+    height: 100%;
+}
+
+.greeting{
+    position: absolute;
+    left:50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.myNameGreeting{
+    font-size: 5em;
+}
+
+.myRoleGreeting{
+    font-size: 1.3em;
+}
+
+.dividerHeading{
+    margin-top: 32px;
+    font-size: 3em;
+    color: #3e7272;
+}
+
+.content{
+    padding: 16px;
+    position: relative;
+}
+
+.skillSection{
+    width: 100%;
+    text-align: center;
+}
+
+.skillImage{
+    position: absolute;
+    margin-top: 64px;
+    top:50%;
+    width: 30%;
+    transform:translateY(-50%);
+    left:10%
+}
+
+.skill{
+    position: absolute;
+    margin-left: 100px;
+    top:50%;
+    right: 10%;
+    transform:translateY(-50%);
+    text-align: start;
+}
+
+.skillHeading{
+    font-size: 3em;
+}
+
+.skillDescription{
+    font-size: 1.5em;
+}
+.fa{
+    display: inline-block;
+    height: 40px;
+    width: 40px;
+    object-fit: fill;
+}
